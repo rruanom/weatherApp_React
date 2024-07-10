@@ -11,9 +11,8 @@ const WeatherList = ({props, place}) => {
         dataItem={item}
       />
     ));
-    const title = `El tiempo en ${place}`
     return <div>
-    <h1>El tiempo en {place}</h1>
+    <h1>Weather in {place}</h1>
     <ul>
       {renderItems()}
     </ul>

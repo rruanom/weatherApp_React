@@ -1,0 +1,9 @@
+@import '../utils/variables.scss';
+
+.header{
+    color: $blue;
+    min-height: 5vh;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 4px;
+}

@@ -41,7 +41,7 @@ const Main = () => {
 
 
   return (
-    <section>
+    <section className="main">
       <form ref={form} onSubmit={handleSubmit} className="form">
         <div>
           <label htmlFor="keyword">Ciudad: </label>
@@ -49,8 +49,8 @@ const Main = () => {
         </div>
 
         {value.keyword ?
-          <button type="submit">Buscar Clima</button> :
-          <i>Rellena todos los campos</i>
+          <button type="submit">Search</button> :
+          <i>Fill the field</i>
         }
 
       </form>

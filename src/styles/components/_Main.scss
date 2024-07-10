@@ -1,0 +1,8 @@
+@import '../utils/mixins.scss';
+
+.main{
+    display: flex;
+    align-items: center;
+    min-height: 85vh;
+    padding: 16px 0px;
+}
